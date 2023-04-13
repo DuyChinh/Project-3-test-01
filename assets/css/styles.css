@@ -59,6 +59,12 @@ a {
     color: var(--primary-color);
 }
 
+.heading.lv3 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    color: var(--primary-color);
+}
+
 /* ========= Header ========== */
 .header {
     padding: 35px 0 10px;
@@ -177,4 +183,85 @@ a {
     height: 410px;
     object-fit: cover;
     border-radius: 6px;
+}
+
+/* Services */
+.services {
+    margin-top: 70px;
+    padding: 100px 0;
+}
+
+.services .heading.lv2 {
+    text-align: center;
+}
+
+.services .desc-service {
+    margin-top: 18px;
+    width: 468px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #575f66;
+}
+
+.services .body {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.services .img-service {
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.services .info {
+    padding-left: 110px;
+}
+
+.services .info .item {
+    border-radius: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.services .info .item:hover {
+    background: #ffffff;
+    box-shadow: 0px 14px 28px red;
+}
+
+.services .info .item-body {
+    display: flex;
+    padding: 21px 0px 20px 22px;
+}
+
+.services .item .item-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2e80ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .item .desc {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575f66;
+}
+
+.services .item .item-info {
+    margin-left: 19px;
+    width: 351px;
+}
+
+.btn-service {
+    margin-top: 55px;
 }
