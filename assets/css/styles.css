@@ -60,6 +60,12 @@ a {
 }
 
 .heading.lv3 {
+    font-size: 2.6rem;
+    line-height: 1.38;
+    color: var(--primary-color);
+}
+
+.heading.lv4 {
     font-size: 1.8rem;
     line-height: 1.2;
     color: var(--primary-color);
@@ -264,4 +270,109 @@ a {
 
 .btn-service {
     margin-top: 55px;
+}
+
+/* Features */
+.features {
+    padding: 100px 0;
+    background-color: #f6fbff;
+}
+
+.features .desc-features {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #575f66;
+}
+
+.features-list {
+    margin-top: 70px;
+    display: flex;
+    gap: 0 30px;
+}
+
+.features-list .feature-item {
+    background-color: #ffffff;
+    border: 16px solid #eaf6ff;
+    border-radius: 4px;
+}
+
+.features-list .feature-item:hover {
+    border-color: #2e80ce;
+    margin-bottom: 16px;
+}
+
+.feature-item .body {
+    padding: 43px 42px;
+}
+
+.features-list .heading {
+    margin-top: 20px;
+}
+
+.features-list .desc {
+    margin-top: 28px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575f66;
+}
+
+.feature-item span {
+    display: inline-block;
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    color: #575f66;
+}
+
+/* =============== Guide ============== */
+.guide {
+    margin-top: 70px;
+    padding: 100px 0;
+}
+
+.guide .body {
+    display: flex;
+}
+
+.guide .img-block {
+    width: 48%;
+    position: relative;
+}
+
+.guide .img-block .img-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.guide .img-block .img-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.guide .info {
+    width: 52%;
+    padding: 82px 0 83px 130px;
+}
+
+.guide .info .desc {
+    margin-top: 18px;
+    margin-bottom: 38px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #575f66;
 }
