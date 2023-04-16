@@ -352,6 +352,7 @@ a {
     width: 512px;
     height: 370px;
     object-fit: cover;
+    border-radius: 6px;
 }
 
 .guide .img-block .img-2 {
@@ -361,6 +362,7 @@ a {
     width: 332px;
     height: 370px;
     object-fit: cover;
+    border-radius: 6px;
 }
 
 .guide .info {
@@ -375,4 +377,140 @@ a {
     font-size: 1.8rem;
     line-height: 1.67;
     color: #575f66;
+}
+/* ===== Team ===== */
+.team {
+    margin-top: 70px;
+    padding: 100px 0;
+}
+
+.team .heading {
+    text-align: center;
+}
+
+.team .btn-team {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .img-block {
+    margin-top: 70px;
+}
+
+.team .img-block .img-group {
+    display: flex;
+}
+
+.team .img-item {
+    flex: 1;
+    gap: 0 30px;
+}
+
+.team .img-item .doctor {
+    width: 270px;
+    height: 318px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.team .img-item .title {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #10375c;
+}
+
+.team .img-item .desc {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #575f66;
+}
+
+.team .action {
+    margin-top: 38px;
+    display: flex;
+    gap: 0 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .action-link {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .action-link:nth-of-type(2) {
+    background-color: #2e80ce;
+}
+
+/* ============ CTA ============ */
+.cta {
+    padding: 75px 0;
+    margin-top: 20px;
+}
+
+.cta .body {
+    display: flex;
+    position: relative;
+}
+
+.cta .screen {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.cta .info {
+    padding: 76px 70px 75px 514px;
+    background-color: #2e80ce;
+}
+
+.cta .heading {
+    color: #ffffff;
+}
+
+.cta .desc {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #ffffff;
+}
+
+.cta .actions {
+    margin-top: 38px;
+    display: flex;
+    gap: 0 28px;
+}
+
+.cta .download {
+    display: flex;
+    align-items: center;
+    gap: 0 9px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.cta .download span {
+    display: inline-block;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+.cta .download .title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 2rem;
 }
