@@ -494,6 +494,7 @@ a {
 }
 
 .cta .download {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 0 9px;
