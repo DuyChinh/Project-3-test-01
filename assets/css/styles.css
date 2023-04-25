@@ -622,5 +622,135 @@ a {
 }
 
 .blog-item .learnMore:hover {
-    color: #2E80CE;
+    color: #2e80ce;
+}
+
+/* === CTA-2 === */
+.cta-2 {
+    background-color: #f6fbff;
+}
+
+.cta-2 .body {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta-2 .seperate {
+    width: 136px;
+    height: 2px;
+    margin: 18px auto;
+    background: #2e80ce;
+}
+
+.cta-2 .desc {
+    width: 617px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #575f66;
+    margin: 0 auto;
+    margin-bottom: 38px;
+}
+
+/* ======== Footer ======== */
+.footer {
+    margin-top: 170px;
+    padding: 100px 0 42px;
+    background-color: var(--primary-color);
+}
+
+.footer .list-item {
+    display: flex;
+    gap: 0 78px;
+}
+
+.footer .item ul li:first-child {
+    margin-top: 20px;
+}
+
+.footer .item li a {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #a9b3bb;
+    white-space: nowrap;
+}
+
+.footer .desc {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.75;
+    color: #a9b3bb;
+}
+
+.footer .title {
+    /* margin-bottom: 20px; */
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.footer .item .row-icon {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.footer .item .row-icon .icon {
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .item .row-icon .icon-fb {
+    background-color: #2e80ce;
+}
+
+
+.footer .item .block-item-2 {
+    margin-top: 38px;
+}
+
+.footer .item .block-item-2 .row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .block-item-2 .subscription {
+    width: 212px;
+    margin-right: 12px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #9ca8b1;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+
+.footer .block-item-2 .btn {
+    min-width: 108px;
+    padding: 9px 10px;
+    border-radius: 4px;
+}
+
+.footer .seperate {
+    margin-top: 28px;
+    height: 1px;
+    background: #406181;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 28px;
 }
