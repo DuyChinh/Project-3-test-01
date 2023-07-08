@@ -7,6 +7,12 @@ html {
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
 :root {
     --primary-color: #10375c;
 }
@@ -301,6 +307,7 @@ a {
 .features-list .feature-item:hover {
     border-color: #2e80ce;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 .feature-item .body {
